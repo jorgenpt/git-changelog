@@ -15,12 +15,12 @@ default = ["bin", "handlebars"]
 bin = ["console", "clap", "env_logger"]
 
 [dependencies]
+anyhow       = "1"
 log          = "0.4"
 nom          = "3.2"
 chrono       = "0.4"
 regex        = "1.4"
 serde        = "1.0"
-failure      = "0.1"
 console      = { version = "0.14", optional = true }
 handlebars   = { version = "3.5", optional = true }
 env_logger   = { version = "0.8", optional = true }
